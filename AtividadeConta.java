@@ -15,9 +15,10 @@ public class AtividadeConta {
 		System.out.println("Saldo: R$ " + conta.saldo);
 
 		
-		conta.sacar("200");
-		conta.depositar("500");
+		conta.sacar(200);
+		conta.depositar(500);
 		conta.consultarHistórico("10 transações");
 		conta.sair();
 	}
+
 }
